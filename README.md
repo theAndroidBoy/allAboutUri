@@ -75,9 +75,15 @@
  - content URI exampe
     #### content://user_dictionary/words
  
- - geo URI format \
+ - geo URI format 
     #### geo:latitude,longitude?z=level
  - geo URI example 
     #### geo:0,0?q=Antwarp,Belgium & Z=10  
- -
+ 
+ - so content URI has scheme ,content authority , path so its legitmate as we know scheme and path are must and it has both.
+ - and geo URI is also legitmate as it has scheme geo, path, query and as we know scheme and path are must and it has both.
+ 
+ ## Conclusion
+  For content provider we only need to worry about Content URI ,as it is used to get data from content provider.
+ 
  
