@@ -52,12 +52,25 @@
 
 ## Some example types
  - Content URI , has scheme content ,A content URI is a URI that identifies data in a provider .
- - #### content://authority/path/id
+ - formal format #### content://authority/path/id
+ - #### content://user_dictionary/words
  
  - geo URI
+ - formal formate #### geo:latitude,longitude?z=level
  - #### geo:0,0?q=Antwarp,Belgium & Z=10 
  - geo URI has scheme geo:
  - in above URI example geo is scheme ,geo scheme describes that the resource/data type to which this URI points is a physical location.
  - in above example scheme geo: is followed by path 0,0 . 0,0 is latitude and longitude .its 0,0 because according to rules if
  - we decribe a string address than lat and long should be 0,0.    
  - their is not authority in above example because we don't need it also authority is optional.
+ 
+ ### Are geo URI and Content URI legitmate URI's ?
+ - lets find out 
+ - general URI format #### Scheme:[//[user:password@]host[:port]] [/]path[?query][#fragment]
+ - content URI format #### content://authority/path/id
+ - content URI exampe #### content://user_dictionary/words
+ 
+ - geo URI format #### geo:latitude,longitude?z=level
+ - geo URI example #### geo:0,0?q=Antwarp,Belgium & Z=10  
+ -
+ 
